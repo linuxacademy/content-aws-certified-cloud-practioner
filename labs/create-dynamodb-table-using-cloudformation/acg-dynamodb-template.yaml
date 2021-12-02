@@ -4,7 +4,7 @@ Description: CloudFormation Template To Create Alfredo's Inventory DynamoDB Tabl
 Resources:
   InventoryTable:
     Type: AWS::DynamoDB::Table,
-    "DeletionPolicy": "Retain",
+    DeletionPolicy: Retain,
     Properties:
       TableName: Inventory
       AttributeDefinitions:
