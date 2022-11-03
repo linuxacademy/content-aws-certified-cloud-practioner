@@ -31,5 +31,5 @@ Parameters:
 
 Outputs:
   Inventory:
-    Description: Alfredo's Inventory Table
+    Description: Kelvin's Inventory Table
     Value: !Ref InventoryTable
